@@ -1,0 +1,12 @@
+##Classify the following potential constant names as idiomatic, non-idiomatic, or illegal. For the ##non-idiomatic and illegal names, explain your choice.
+
+#Name
+
+index       #non-idiomatic, constants should not use lower case
+CatName     #non-idiomatic, constants should not use lower case
+snake_case  #non-idiomatic, constants should not use lower case
+LAZY_DOG3   #Idiomatic
+1ST         #Illegal, should not start with a digit
+operand2    ##non-idiomatic, constants should not use lower case
+BIG_NUMBER  #Idiomatic
+Π           ##non-idiomatic, because it's a non ASCII character

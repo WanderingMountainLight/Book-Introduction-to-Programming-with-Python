@@ -1,0 +1,11 @@
+#Classify the following potential class names as idiomatic, non-idiomatic, or illegal. For the non-idiomatic and illegal names, explain your choice.
+
+#Name
+
+index       #Non-Idiomatic, should begin with an uppercase character
+CatName     #Idiomatic
+Lazy_Dog    #Non-Idiomatic, shouldn't use underscores
+1ST         #Illegal, because it starts with a digit
+operand2    #Non-Idiomatic, should begin with an uppercase character
+BigNumber3  #Idiomatic
+Πi          #Non-Idiomatic, becasue pi not an ASCII

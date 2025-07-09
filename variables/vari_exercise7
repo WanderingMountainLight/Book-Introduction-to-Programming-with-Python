@@ -1,0 +1,13 @@
+#What happens when you run the following code? Why?
+
+#NAME = 'Victor'                        This Assigns "NAME" as the string 'Victor'
+#print('Good Morning, ' + NAME)         This will print: Good Morning, (+ the variable sting) Victor
+#print('Good Afternoon, ' + NAME)       This will print: Good Afternoon, Victor
+#print('Good Evening, ' + NAME)         This will print: Good Evening, Victor
+
+#NAME = 'Nina'                          This Reasigns "NAME" to Nina
+#print('Good Morning, ' + NAME)         This will print: Good Morning, Nina
+#print('Good Afternoon, ' + NAME)       This will print: Good Afternoon, Nina
+#print('Good Evening, ' + NAME)         This will print: Good Evening, Nina
+
+#The program will great Victor 3 times for morning, afternoon, and evening. Then it will greet Nina 3 times. This happens because "NAME" is still a variable and reassignable in Python.

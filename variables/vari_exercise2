@@ -1,0 +1,12 @@
+#Classify the following potential function names as idiomatic, non-idiomatic, or illegal. For the #non-idiomatic and illegal names, explain your choice.
+
+#Name
+
+index           #Idiomatic
+CatName         #Non-Idiomatic, due to capital letters and no underscore
+lazy_dog        #Idiomatic
+quick_Fox       #Non-Idiomatic, due to the captial F
+1stCharacter    #Illegal, becasue it begins with a digit
+operand2        #Idiomatic
+BIG_NUMBER      #Non-Idiomatic, because ALL CAPS
+π               #Non-Idiomatic, because it's a non ASCII character
