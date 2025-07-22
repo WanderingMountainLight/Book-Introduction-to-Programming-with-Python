@@ -1,0 +1,12 @@
+#Without running the following code, what do you think it will do?
+
+def foo(first, second=3, third):
+    print(first)
+    print(second)
+    print(third)
+
+foo(42)
+
+#This will produce an error because we are only providing the first 
+#parameter, the second parameter has a default, and the third
+#doesn't have anything assisgned.

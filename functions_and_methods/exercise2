@@ -1,0 +1,14 @@
+#What does this program print? Why?
+
+foo = 'bar'
+
+def set_foo():
+    foo = 'qux'
+
+set_foo()
+print(foo)
+
+# The Program will print 'bar' becasue the variable 'foo' is
+# Initally defined on line 3, and then assigned again but within the
+# function 'set_foo'. Since that assignment doesn't get passed out of the
+# function, the original 'foo' assignment remains unchanged.

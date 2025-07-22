@@ -1,0 +1,9 @@
+#What does the following code print?
+
+def scream(words):
+    return words + '!!!!'
+
+scream('Yipeee')
+
+
+# There is not a print command so the code does not print anything
